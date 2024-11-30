@@ -396,4 +396,3 @@ function checkWin(board, player) {
     pattern.every(index => board[Math.floor(index / 3)][index % 3] === player)
   );
 }
-
